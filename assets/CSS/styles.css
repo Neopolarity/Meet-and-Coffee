@@ -1,0 +1,247 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	background: #000;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.nav-main {
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	height: 60px;
+	padding: 5px 0px;
+}
+
+.nav-main ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+
+
+.coffee-logo {
+	width: 20px;
+	filter: invert(100%);
+}
+
+.nav-main ul {
+	display: flex;
+}
+
+.nav-main ul li {
+	padding: 10px;
+}
+
+.nav-main ul li a:hover {
+	border-bottom: 2px solid #91AAA7;
+	color: #91AAA7;
+
+}
+
+.nav-main ul.nav-menu {
+	flex: 1;
+	margin-left: 20px;
+}
+
+/*predeterminado*/
+
+header {
+background-image: url(../img/bg-hero.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: Open sans;
+text-shadow: 0px 3px 6px black;
+text-align: right;
+color: #ffffff;
+padding-top: 80px;
+padding-right: 170px;
+padding-bottom: 200px;
+}
+
+header h1{
+font-size: 50px;
+font-weight: 900;
+}
+
+header h2 {
+font-size: 40px;
+font-weight: lighter;
+}
+
+#proxima_charla {
+background: #a4452c;
+padding: 100px;
+color: white;
+}
+#Proxima-Charla .wrapper {
+width: 800px;
+margin: auto;
+}
+
+.wrapper img {
+width: 25%;
+}
+.wrapper .texto {
+width: 70%;
+margin-left: 4%;
+}
+
+.wrapper img, .texto {
+display: inline-block;
+vertical-align: middle;
+}
+
+.texto h3 {
+	font-size: 30px;
+} 
+
+.texto h4 {
+	font-size: 20px;
+	padding: 0;
+	border: 0;
+} 
+
+.texto span p {
+	font-size: 20px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.info {
+	font-size: 14px;
+	margin-top: 0;
+	padding-top: 0;
+} 
+
+.detail {
+	font-size: 16px;
+}
+
+
+#we-work-container {
+	padding: 100px;
+}
+
+.we-work-contain img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.we-work-contain .txt {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+#Eventos-container h2 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 30px
+}
+
+
+article {
+	display: inline-block;
+	padding-top: 40px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 80px;
+	border: 20px;
+	text-decoration: none;
+}
+
+
+article h4 {
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.vegan_title {
+
+}
+
+footer {
+font-family: "Open Sans", sans-serif;
+text-align: center;
+background: #000f08;
+color: white;
+padding-top: 30px;
+padding-bottom: 20px;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+i {
+font-size: 30px;
+padding-bottom: 20px;
+}
+
+
+/*segunda página*/
+
+.article-simp {
+	height: 50%;
+	text-align: center;
+	margin-left: 550px;
+	margin-right: 550px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.article-simp img {
+	padding-bottom: 20px;
+
+}
+
+.article-simp h1 {
+	font-size: 25px;
+	padding-bottom: 30px;
+	
+}
+
+.article-simp p {
+	text-align: justify;
+	font-size: 15px;
+}
+
+.article-simp h3 {
+	text-align: left;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
